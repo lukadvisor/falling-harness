@@ -9,9 +9,7 @@ from PIL import Image
 
 
 from torchvision import transforms
-from utils.datasets import letterbox
-from utils.general import non_max_suppression_kpt
-from utils.plots import output_to_keypoint, plot_skeleton_kpts
+
 
 
 def main():
