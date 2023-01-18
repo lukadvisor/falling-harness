@@ -27,7 +27,7 @@ def main():
     
     #INPUTS
     img_size=512
-    path_yolov7_weights="best2.pt"
+    path_yolov7_weights="best.pt"
     
      #INITIALIZE THE app
     app=singleinference_yolov7.SingleInference_YOLOV7(img_size,path_yolov7_weights,'None',device_i='cpu',conf_thres=0.25,iou_thres=0.5)
